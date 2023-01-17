@@ -1,0 +1,33 @@
+html, body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+
+    background-image: url(img/j.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#machine{
+    width:100vw;
+    min-width:45vh;
+    height:100vh;
+    background-image: url(img/oscillo2bw.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat:no-repeat;
+    z-index: 30;
+
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#visage iframe{
+    display:block; 
+    width:100%;
+    height:24%;
+    border:none; 
+}
